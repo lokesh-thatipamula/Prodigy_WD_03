@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe --- By Lokesh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="msg-contain hide">
+        <p id="msg">Winner</p>
+            <button id="new-btn">new game</button>             
+    </div>
+    <main>
+        <h1>TIC-TAC-TOE</h1>
+        <div class="main-page">
+            <button id="multi-btn">Offline Multiplayer</button>
+            <button id="complay-btn">Vs Computer</button>
+        </div>
+        <div class="multi-player hide">
+            <form>
+                <div class="playerNames">
+                    <p id="PX">Player X = <input value="X" type="text"></p>
+                    <p id="PO">Player O = <input value="O" type="text"></p>
+                </div>
+            </form>
+            <button id="play-btn">play game</button>
+        </div>
+        <div class="container hide">
+            <div class="game">
+                <button class="box" id="b0" ></button>
+                <button class="box" id="b1" ></button>
+                <button class="box" id="b2" ></button>
+                <button class="box" id="b3" ></button>
+                <button class="box" id="b4" ></button>
+                <button class="box" id="b5" ></button>
+                <button class="box" id="b6" ></button>
+                <button class="box" id="b7" ></button>
+                <button class="box" id="b8" ></button>
+            </div>
+        </div>
+        <button id="reset" class="hide">reset game</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
